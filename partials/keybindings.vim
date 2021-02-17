@@ -1,4 +1,5 @@
 map       <A-space>       :CocCommand explorer<CR>
+map       <A-t>           <Plug>(coc-terminal-toggle)
 inoremap  <silent><expr>  <c-space> coc#refresh()
 
 " FZF

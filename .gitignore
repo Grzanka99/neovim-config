@@ -1,3 +1,4 @@
 # Ignore files from node_modules
 plugins/
 .netrwhist
+undodir/

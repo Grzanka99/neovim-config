@@ -5,9 +5,10 @@
   "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
+  "explorer.keyMappings.global": {
     "v": "open:vsplit"
   },
-  "explorer.file.showHiddenFiles": true
+  "explorer.file.showHiddenFiles": true,
+  "prettier.requireConfig": true,
+  "eslint.format.enable": true
 }

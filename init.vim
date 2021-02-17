@@ -23,6 +23,11 @@ set mouse=a
 set encoding=utf-8
 set updatetime=300
 set timeoutlen=100
+set wrap nowrap
+
+" undo after close buffer
+set undodir=$HOME/.config/nvim/undodir
+set undofile
 
 " Pugin config
 let g:coc_global_extensions = [
@@ -41,8 +46,8 @@ let g:coc_global_extensions = [
   \ 'coc-phpls',
   \ 'coc-explorer',
   \ 'coc-python',
+  \ 'coc-tabnine',
   \ ]
-  " 'coc-tabnine',
 
 let g:lightline = {
   \ 'colorscheme': 'onedark',
@@ -83,7 +88,7 @@ autocmd FocusGained * silen! checktime
 let g:neovide_cursor_animation_length=0
 let g:neovide_cursor_trail_length=0
 let g:neovide_cursor_antialiasing=v:true
-set guifont=FiraCode\ Nerd\ Font:h14
+set guifont=FiraCode\ Nerd\ Font:h12
 
 colorscheme onedark
 set termguicolors
