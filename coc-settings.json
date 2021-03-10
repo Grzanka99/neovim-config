@@ -9,6 +9,7 @@
     "v": "open:vsplit"
   },
   "explorer.file.showHiddenFiles": true,
+  "explorer.position": "right",
   "prettier.requireConfig": true,
   "eslint.format.enable": true
 }
